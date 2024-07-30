@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sejarah dan Konsep Dasar Pemrograman Berorientasi Objek</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            padding: 25px;
+            background-color: #f4f4f4;
+        }
+
+        h1,
+        h2 {
+            color: #333;
+        }
+
+        .judul{
+            text-align: center;
+            margin-bottom: 25px;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #7FA1C3;
+        }
+        
+        footer{
+            margin: 25px 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        footer h1{
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="judul">Sejarah dan Konsep Dasar Pemrograman Berorientasi Objek</h1>
+
+        <h2>1. Esai Sejarah PBO</h2>
+        <p>Pemrograman Berorientasi Objek (PBO) adalah paradigma pemrograman yang mengorganisir perangkat lunak sebagai
+            koleksi objek yang berinteraksi satu sama lain. Konsep dasar objek dan kelas telah ada sejak awal
+            pengembangan perangkat lunak, tetapi PBO baru benar-benar berkembang pada tahun 1960-an dan 1970-an.</p>
+
+        <p>Awal mula PBO dapat ditelusuri ke bahasa pemrograman Simula, yang dikembangkan oleh Ole-Johan Dahl dan
+            Kristen Nygaard di Norwegia. Simula diperkenalkan pada tahun 1960 dan dikenal sebagai bahasa pemrograman
+            pertama yang mendukung konsep objek dan kelas. Simula memperkenalkan ide-ide penting seperti pewarisan dan
+            enkapsulasi, yang merupakan fondasi dari PBO.</p>
+
+        <p>Pada 1970-an, Smalltalk, yang dikembangkan oleh Alan Kay, Dan Ingalls, dan grup di Xerox PARC, memainkan
+            peran penting dalam mempopulerkan PBO. Smalltalk adalah bahasa pertama yang dirancang secara eksplisit untuk
+            mendukung paradigma objek, dengan menyediakan lingkungan pengembangan yang sepenuhnya berorientasi objek.
+            Konsep-konsep ini seperti pesan, objek, dan kelas dikembangkan lebih lanjut di sini.</p>
+
+        <p>Pada tahun 1980-an, bahasa C++ yang dikembangkan oleh Bjarne Stroustrup membawa PBO ke komunitas pemrograman
+            yang lebih luas dengan mengintegrasikan fitur objek ke dalam bahasa C yang sudah populer. C++ memperkenalkan
+            banyak fitur baru yang penting dalam pemrograman berorientasi objek, seperti pewarisan ganda dan
+            polimorfisme.</p>
+
+        <p>Sebagai langkah selanjutnya, bahasa Java, yang diperkenalkan oleh Sun Microsystems pada tahun 1995,
+            memberikan kontribusi besar dalam menyebarluaskan PBO lebih jauh dengan menjadikannya standar dalam
+            pengembangan perangkat lunak berbasis internet. Java dirancang dari awal untuk mendukung prinsip-prinsip PBO
+            dan menjadi bahasa pilihan untuk pengembangan aplikasi web dan aplikasi perangkat lunak enterprise.</p>
+
+        <p>PBO telah mengubah cara perangkat lunak dikembangkan dan dipelihara dengan memperkenalkan prinsip modularitas
+            dan reusable code. Pendekatan berorientasi objek memungkinkan pengembang untuk membangun perangkat lunak
+            yang lebih mudah untuk diatur, diperluas, dan dirawat. Dengan memisahkan data dan perilaku menjadi objek
+            yang dapat digunakan kembali, PBO membuat pemrograman menjadi lebih efisien dan terstruktur.</p>
+
+        <h2>2. Perbedaan Pemrograman Prosedural dan PBO</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Aspek</th>
+                    <th>Pemrograman Prosedural</th>
+                    <th>Pemrograman Berorientasi Objek</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Struktur Program</td>
+                    <td>Berbasis fungsi atau prosedur. Program terdiri dari serangkaian prosedur atau fungsi.</td>
+                    <td>Berbasis objek. Program terdiri dari objek yang memiliki data dan metode.</td>
+                </tr>
+                <tr>
+                    <td>Pendekatan</td>
+                    <td>Fokus pada urutan eksekusi fungsi dan manipulasi data.</td>
+                    <td>Fokus pada objek dan bagaimana mereka berinteraksi. Data dan fungsi digabungkan dalam objek.
+                    </td>
+                </tr>
+                <tr>
+                    <td>Kelebihan</td>
+                    <td>Sederhana untuk program kecil dan algoritma sederhana. Mudah dipahami dalam konteks linear.</td>
+                    <td>Meningkatkan modularitas dan reuse. Mempermudah pemeliharaan dan pengembangan perangkat lunak
+                        besar.</td>
+                </tr>
+                <tr>
+                    <td>Contoh Bahasa Pemrograman</td>
+                    <td>C, Fortran, Pascal</td>
+                    <td>Java, C++, Python</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+<footer>
+    <h1>Syaeful Permana</h1>
+    <p>XI RPL 1 - NO. 37</p>
+</footer>
+
+</html>
