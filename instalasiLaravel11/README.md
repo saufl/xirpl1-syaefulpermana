@@ -1,5 +1,3 @@
-Berikut adalah file `README.md` dalam format Markdown yang menjelaskan tugas Laravel 11 dengan migrasi database dalam bahasa Indonesia:
-
 ```markdown
 # Proyek Laravel 11 dengan Migrasi Database
 
